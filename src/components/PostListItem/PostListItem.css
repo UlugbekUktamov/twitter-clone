@@ -1,0 +1,76 @@
+.app-list-item.like .fa-heart {
+    opacity: 1;
+    transform: translateX(0px);
+}
+
+.app-list-item.important .app-list-item-label {
+    color: #ffd700;
+}
+
+.app-list-item.important .fa.fa-star {
+    color: #000;
+}
+
+.app-list-item .fa.fa-star {
+    color: #ffd700;
+}
+
+.app-list-item.important .btn-start {
+    color: #aeaeae;
+}
+
+.content {
+    padding: 1.2rem;
+    border: 1px solid #b0b0b1;
+    margin: 1px;
+}
+
+.btn-sm {
+    margin: 0 0.2rem;
+}
+
+.app-list-item.important2 .fa.fa-heart {
+    color: red;
+}
+
+.btn-heart.important2 .fa.fa-heart {
+    color: red;
+}
+
+.visible {
+    animation: visible .5s linear;
+    position: relative;
+}
+
+.hidden {
+    animation: hidden .5s linear;
+    position: relative;
+}
+
+.hidden2 {
+    display: none;
+}
+
+@keyframes hidden {
+    0% {
+        left: 0;
+    }
+
+    100% {
+        left: 200px;
+    }
+}
+
+@keyframes visible {
+    0% {
+        left: 200px;
+    }
+
+    100% {
+        left: 0;
+    }
+}
+
+.app {
+    height: auto !important;
+}
